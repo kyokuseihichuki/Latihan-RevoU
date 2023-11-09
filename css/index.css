@@ -1,0 +1,228 @@
+/* Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald:wght@300&family=Raleway&display=swap');
+
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+    body {
+      width: 90%;
+    }
+}
+  
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 700px;
+    }
+}
+
+body {
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.92rem;
+    color: rgb(32,42,68);
+    margin: auto;
+}
+
+.card {
+    border: 0px solid;
+    border-radius: 7px;
+    background-color: rgba(40, 202, 202, 0.6);
+    padding: 1em 2em;
+}
+
+label {
+    margin-bottom: 7px;
+}
+
+.form-group-g {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.form-group-1 {
+    color: white;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"]{
+    border: 3px solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: white;
+    padding-top: 5px;
+}
+
+.fa-solid.fa-mars {
+    color: blue;
+}
+
+.fa-solid.fa-venus {
+    color: rgb(255, 62, 62);
+}
+
+.icon-input {
+    display: flex;
+    align-items: center;
+}
+
+.icon-input i {
+    margin-right: 7px;
+    color: black;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+#calculate {
+    border: 0px  #555;
+    background-color:  #b6bce0;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#calculate:hover {
+    background-color: #555;
+    color: #fff;
+}
+  
+#reset {
+    border: 0px solid #bebebe;
+    background-color: #f1f1f1;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#static-desc {
+    text-align: justify;
+}
+
+.font-big {
+    font-size: 150%;
+    text-shadow: 1px 1px #c2c2c2
+}
+
+.font-desc {
+    font-size: 95%;
+    text-shadow: 1px 1px #c2c2c2
+}
+
+.card-1 {
+    border: 0px solid;
+    border-radius: 7px;
+    background-color: rgb(60, 126, 126, 0.6);
+    padding: 2em;
+    text-align: center;
+}
+
+#bmi-category-3 {
+    text-align: justify;
+}
+
+#bmi-category-4 {
+    text-align: justify;
+}
+
+#download {
+    border: 0px solid #ffd44c;
+    background-color: #779fdb;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#download:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#consultation {
+    border: 0px solid #6873db;
+    background-color: #779fdb;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#consultation:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#registration {
+    border: 0px solid #ffd44c;
+    background-color: #779fdb;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+}
+
+#registration:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.card-2 {
+    border: 0px solid;
+    border-radius: 7px;
+    background-color: rgb(60, 126, 126, 0.6);
+    padding: 2em;
+    text-align: center;
+}
+
+#results {
+    display: none;
+}
+
+#download-me {
+    text-align: center;
+}
+
+.playstore {
+    width: 33.5%;
+    height: auto;
+    margin-right: 25px;
+}
+
+.appstore {
+    width: 30%;
+    height: auto;
+}
