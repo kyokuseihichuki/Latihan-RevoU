@@ -62,21 +62,21 @@ function calculateBMI() {
 
     // BMI result selection
     if (bmi < 18.5) {
-        category = "Kekurangan Berat Badan";
+        category = "Kekurangan Berat Badan/Underweight";
         explanation = "Individu dengan BMI di bawah 18,5 dianggap Kurus , yang dapat diindikasikan kekurangan gizi, masalah kesehatan yang mendasarinya, atau praktik penurunan berat badan yang tidak sehat."
-        tips = "Health tips:<br>-Tambah asupan kalori Anda untuk menambah berat badan. <br> -Konsumsi lebih banyak makanan protein tinggi dalam makanan Anda, seperti daging tanpa lemak, telur, dan kacang. -Hindari makanan olahan dan minuman manis."
+        tips = "Tips Kesehatan :<br>-Tambah asupan kalori Anda untuk menambah berat badan. <br> -Konsumsi lebih banyak makanan protein tinggi dalam makanan Anda, seperti daging tanpa lemak, telur, dan kacang. -Hindari makanan olahan dan minuman manis."
     } else if (bmi >= 18.5 && bmi <= 24.9) {
         category = "Normal (Ideal)";
         explanation = "Individu dengan BMI antara 18,5 dan 24,9 dianggap memiliki berat badan normal. Kategori ini memiliki risiko terendah terkena masalah kesehatan terkait berat badan."
-        tips = "Health tips:<br>- Pertahankan diet seimbang dengan berbagai buah, sayuran, biji -bijian, protein tanpa lemak, dan lemak sehat. <br> - terlibat dalam aktivitas fisik yang teratur, seperti berjalan cepat, bersepeda, atau berenang. <br> - Hindari merokok dan konsumsi alkohol yang berlebihan. <br> - cukup tidur dan kelola tingkat stres Anda."
+        tips = "Tips Kesehatan :<br>- Pertahankan diet seimbang dengan berbagai buah, sayuran, biji -bijian, protein tanpa lemak, dan lemak sehat. <br> - terlibat dalam aktivitas fisik yang teratur, seperti berjalan cepat, bersepeda, atau berenang. <br> - Hindari merokok dan konsumsi alkohol yang berlebihan. <br> - cukup tidur dan kelola tingkat stres Anda."
     } else if (bmi >= 25 && bmi <= 29.9) {
-        category = "Kelebihan Berat Badan";
+        category = "Kelebihan Berat Badan/Overweight";
         explanation = "Individu dengan BMI antara 25 dan 29,9 dianggap kelebihan berat badan, yang dapat mengindikasikan peningkatan risiko mengembangkan masalah kesehatan terkait berat badan, seperti tekanan darah tinggi, diabetes tipe 2, dan penyakit jantung."
-        tips = "Health tips:<br>- Kurangi asupan kalori dan batasi ukuran porsi Anda. <br>- Pilih pilihan makanan yang lebih sehat, seperti biji-bijian, buah-buahan, sayuran, dan protein tanpa lemak. <br>- Tingkatkan tingkat aktivitas fisik Anda untuk membakar lebih banyak kalori. <br> - Konsultasikan dengan profesional kesehatan atau ahli diet terdaftar untuk nasihat yang dipersonalisasi."
+        tips = "Tips Kesehatan :<br>- Kurangi asupan kalori dan batasi ukuran porsi Anda. <br>- Pilih pilihan makanan yang lebih sehat, seperti biji-bijian, buah-buahan, sayuran, dan protein tanpa lemak. <br>- Tingkatkan tingkat aktivitas fisik Anda untuk membakar lebih banyak kalori. <br> - Konsultasikan dengan profesional kesehatan atau ahli diet terdaftar untuk nasihat yang dipersonalisasi."
     } else {
-        category = "Kegemukan"
+        category = "Kegemukan/Obesity"
         explanation = "Individu dengan BMI antara 30 dan 34,9 dianggap memiliki obesitas (kelas I), yang dapat meningkatkan risiko mengembangkan masalah kesehatan terkait berat badan, termasuk penyakit jantung, stroke, dan beberapa jenis kanker."
-        tips = "Health tips:<br>- Ikuti program penurunan berat badan terstruktur di bawah bimbingan seorang ahli diet profesional kesehatan atau terdaftar. <br>- Tetapkan tujuan yang realistis dan lacak kemajuan Anda. <br>- Tingkatkan tingkat aktivitas fisik Anda secara bertahap dan terlibat dalam baik aerobik dan pelatihan kekuatan dan kekuatan Latihan. <br>- mencari dukungan dari keluarga, teman, atau kelompok pendukung."
+        tips = "Tips Kesehatan :<br>- Ikuti program penurunan berat badan terstruktur di bawah bimbingan seorang ahli diet profesional kesehatan atau terdaftar. <br>- Tetapkan tujuan yang realistis dan lacak kemajuan Anda. <br>- Tingkatkan tingkat aktivitas fisik Anda secara bertahap dan terlibat dalam baik aerobik dan pelatihan kekuatan dan kekuatan Latihan. <br>- mencari dukungan dari keluarga, teman, atau kelompok pendukung."
     }
 
     // Get the result element
